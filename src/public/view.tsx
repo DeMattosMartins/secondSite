@@ -8,7 +8,7 @@ import { Footer } from './components/Footer'
 
 export const IntialPageView = () => {
   return (
-    <div className="w-full bg-[#808080] h-screen flex flex-col">
+    <div className="w-full bg-[#808080] h-dvh flex flex-col">
       <Tabs
         defaultValue="Home"
         className="w-full flex-1 bg-[#808080] pt-[10px] flex flex-col overflow-hidden">
