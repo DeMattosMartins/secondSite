@@ -1,0 +1,56 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "professional": "Professional"
+  },
+  "home": {
+    "role": "Software Full Stack Developer",
+    "description": "Computer Science student, passionate about technology, automation and artificial intelligence."
+  },
+  "about": {
+    "dev_title": "Full Stack Software Developer",
+    "dev_p1": "I currently work as a Full Stack Software Developer, building complete digital solutions — from the user interface to business logic and system integration. Day to day, I tackle real product challenges, architectural decisions, code organization and the construction of scalable, well-structured features.",
+    "dev_p2": "I focus on quality, performance and best development practices, always striving to create efficient, organized and long-term sustainable solutions. This experience has strengthened my systemic vision, my ability to solve complex problems and my professional maturity within the technology field.",
+    "first_job_title": "First Professional Experience",
+    "first_job_p1": "My first professional experience as a salesperson was a turning point in my personal development. It was in that environment that I learned to deal with people, pressure for results and real market challenges. At first I faced difficulties, but that is exactly what made me evolve, develop emotional maturity and build a more professional attitude.",
+    "first_job_p2": "That period gave me fundamental skills such as strategic communication, active listening, negotiation, emotional intelligence and organization. I learned to understand needs, present solutions clearly and work with goals, deadlines and responsibility — competencies I now apply directly in the technology and software development field.",
+    "portugal_title": "Time in Portugal",
+    "portugal_p1": "My experience in Portugal represented a great leap in my personal and mental growth. Living abroad, away from family and my comfort zone, forced me to mature quickly and develop autonomy, responsibility and independence. I learned to deal with new challenges, different cultures and realities completely outside what I was used to.",
+    "portugal_p2": "That period strengthened my adaptability, resilience and self-management. Facing difficulties alone taught me to trust myself more, make decisions more consciously and build a stronger, more strategic mindset focused on continuous evolution.",
+    "football_title": "Football",
+    "football_p1": "Football has always been an important foundation in shaping my character and mindset. Far beyond the sport itself, it taught me values I carry directly into my professional life, such as discipline, commitment, focus and teamwork. On the pitch, I learned to handle pressure, make quick decisions and stay clear-headed even in adverse situations — essential skills in the professional world.",
+    "football_p2": "The training routine, the constant pursuit of improvement and healthy competitiveness shaped my growth mindset. It taught me not to settle, to always strive to improve and to understand that consistency and daily effort are decisive factors in achieving solid results, both in sport and in a career."
+  },
+  "education": {
+    "title": "EDUCATION",
+    "feup_name": "FEUP — Faculty of Engineering, University of Porto",
+    "feup_desc": "Porto, Portugal — Bachelor's in Electrical and Computer Engineering (interrupted)",
+    "fiap_name": "FIAP — Faculty of Computer Science and Business Administration",
+    "fiap_desc": "São Paulo, SP — Bachelor's in Computer Science (in progress)",
+    "alura_name": "ALURA — Online Platform",
+    "alura_desc": "Programming Courses (06/2023 – 06/2025)"
+  },
+  "professional": {
+    "title": "PROFESSIONAL EXPERIENCE",
+    "kruzer_junior_role": "KRUZER, São Paulo — Junior Developer",
+    "kruzer_junior_period": "12/2025 – present",
+    "kruzer_junior_li1": "Working in a development environment focused on software development",
+    "kruzer_junior_li2": "Developing skills in",
+    "kruzer_junior_li2_tech": "JavaScript, TypeScript and React",
+    "kruzer_intern_role": "KRUZER, São Paulo — Development Intern",
+    "kruzer_intern_period": "05/2025 – 12/2025",
+    "kruzer_intern_li1": "Working in a development environment focused on technical support and software development",
+    "kruzer_intern_li2": "Developing skills in",
+    "kruzer_intern_li2_tech": "JavaScript, TypeScript and React",
+    "javendeu_role": "JA VENDEU, São Paulo — Senior Salesperson",
+    "javendeu_period": "12/2022 – 06/2024",
+    "javendeu_li1": "Rapid growth in the company with two promotions",
+    "javendeu_li2": "Developing competencies in",
+    "javendeu_li2_skills": "communication, problem-solving and teamwork"
+  },
+  "footer": {
+    "contact": "demattosmartins@gmail.com"
+  }
+}

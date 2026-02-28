@@ -1,28 +1,30 @@
+import { useTranslation } from 'react-i18next'
 import mePhoto from '../../assets/me.png'
 import linkedinLogo from '../../assets/linkedin.png'
 import githubLogo from '../../assets/github.png'
 
 export const Home = () => {
+  const { t } = useTranslation()
+
   return (
-    <div className="flex flex-row items-center justify-center gap-20 px-20 h-full">
+    <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 px-6 md:px-20 py-10 md:py-0 h-full">
       {/* Left — text content */}
-      <div className="flex flex-col gap-4 text-white">
+      <div className="flex flex-col gap-4 text-white text-center md:text-left items-center md:items-start">
         <div>
-          <h1 className="text-5xl font-bold leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
             Mateus de Mattos
             <br />
             Martins
           </h1>
-          <h2 className="text-white/60 text-lg mt-2">
-            Software Full Stack Developer
+          <h2 className="text-white/60 text-xl md:text-2xl mt-2">
+            {t('home.role')}
           </h2>
         </div>
 
         <div className="w-12 h-px bg-white/30" />
 
-        <p className="text-white/70 text-sm max-w-xs leading-relaxed">
-          Estudante de Ciência da Computação, apaixonado por tecnologia,
-          automação e inteligência artificial.
+        <p className="text-white/70 text-base md:text-lg max-w-xs leading-relaxed">
+          {t('home.description')}
         </p>
 
         <div className="flex flex-row gap-4 pt-2">
@@ -31,14 +33,14 @@ export const Home = () => {
             target="_blank"
             rel="noreferrer"
             className="opacity-70 hover:opacity-100 transition-opacity">
-            <img src={linkedinLogo} alt="LinkedIn" className="w-7 h-7" />
+            <img src={linkedinLogo} alt="LinkedIn" className="w-8 h-8 md:w-9 md:h-9" />
           </a>
           <a
             href="https://github.com/DeMattosMartins"
             target="_blank"
             rel="noreferrer"
             className="opacity-70 hover:opacity-100 transition-opacity">
-            <img src={githubLogo} alt="GitHub" className="w-7 h-7" />
+            <img src={githubLogo} alt="GitHub" className="w-8 h-8 md:w-9 md:h-9" />
           </a>
         </div>
       </div>
@@ -48,7 +50,7 @@ export const Home = () => {
         <img
           src={mePhoto}
           alt="Profile photo"
-          className="w-[420px] h-[480px] object-cover rounded-2xl shadow-lg"
+          className="w-[260px] h-[300px] sm:w-[320px] sm:h-[370px] md:w-[420px] md:h-[480px] object-cover rounded-2xl shadow-lg"
         />
       </div>
     </div>

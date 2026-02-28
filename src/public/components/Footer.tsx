@@ -4,15 +4,15 @@ import githubLogo from '../../assets/github.png'
 export const Footer = () => {
   return (
     <footer className="w-full bg-[#808080] border-t border-white/10 mt-auto">
-      <div className="w-[calc(100%-20px)] mx-[10px] py-4 flex items-center justify-between">
-        <p className="text-white/50 text-xs">
+      <div className="w-[calc(100%-20px)] mx-[10px] py-4 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-0">
+        <p className="text-white/50 text-sm">
           © {new Date().getFullYear()} Mateus de Mattos Martins
         </p>
 
         <div className="flex items-center gap-4">
           <a
             href="mailto:demattosmartins@gmail.com"
-            className="text-white/60 hover:text-white text-sm transition-colors">
+            className="text-white/60 hover:text-white text-sm md:text-base transition-colors">
             demattosmartins@gmail.com
           </a>
 
@@ -24,14 +24,14 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer"
               className="opacity-60 hover:opacity-100 transition-opacity">
-              <img src={linkedinLogo} alt="LinkedIn" className="w-5 h-5" />
+              <img src={linkedinLogo} alt="LinkedIn" className="w-5 h-5 md:w-6 md:h-6" />
             </a>
             <a
               href="https://github.com/DeMattosMartins"
               target="_blank"
               rel="noreferrer"
               className="opacity-60 hover:opacity-100 transition-opacity">
-              <img src={githubLogo} alt="GitHub" className="w-5 h-5" />
+              <img src={githubLogo} alt="GitHub" className="w-5 h-5 md:w-6 md:h-6" />
             </a>
           </div>
         </div>
