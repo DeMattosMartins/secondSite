@@ -3,7 +3,7 @@ import githubLogo from '../../assets/github.png'
 
 export const Footer = () => {
   return (
-    <footer className="w-full bg-[#808080] border-t border-white/10">
+    <footer className="w-full bg-[#808080] border-t border-white/10 shadow-[0_-4px_12px_rgba(0,0,0,0.3)]">
       <div className="w-[calc(100%-20px)] mx-[10px] py-4 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-0">
         <p className="text-white/50 text-sm">
           © {new Date().getFullYear()} Mateus de Mattos Martins

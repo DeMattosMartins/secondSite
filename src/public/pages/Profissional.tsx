@@ -9,7 +9,7 @@ export const ProfessionalExperience = () => {
 
         {/* Title */}
         <div className="text-center">
-          <h1 className="text-3xl md:text-4xl font-bold tracking-wide">{t('professional.title')}</h1>
+          <h1 className="text-2xl md:text-3xl font-bold tracking-wide">{t('professional.title')}</h1>
           <div className="w-24 h-[2px] bg-white/30 mx-auto mt-3" />
         </div>
 
@@ -18,11 +18,11 @@ export const ProfessionalExperience = () => {
 
           {/* KRUZER - Junior */}
           <div>
-            <h2 className="font-semibold text-white text-lg md:text-xl">
+            <h2 className="font-semibold text-white text-base md:text-lg">
               {t('professional.kruzer_junior_role')}
             </h2>
-            <p className="text-base md:text-lg text-white/60">{t('professional.kruzer_junior_period')}</p>
-            <ul className="mt-2 text-base md:text-lg text-white/70 space-y-1">
+            <p className="text-sm md:text-base text-white/60">{t('professional.kruzer_junior_period')}</p>
+            <ul className="mt-2 text-sm md:text-base text-white/70 space-y-1">
               <li>• {t('professional.kruzer_junior_li1')}</li>
               <li>• {t('professional.kruzer_junior_li2')} <span className="text-white">{t('professional.kruzer_junior_li2_tech')}</span></li>
             </ul>
@@ -30,11 +30,11 @@ export const ProfessionalExperience = () => {
 
           {/* KRUZER - Intern */}
           <div>
-            <h2 className="font-semibold text-white text-lg md:text-xl">
+            <h2 className="font-semibold text-white text-base md:text-lg">
               {t('professional.kruzer_intern_role')}
             </h2>
-            <p className="text-base md:text-lg text-white/60">{t('professional.kruzer_intern_period')}</p>
-            <ul className="mt-2 text-base md:text-lg text-white/70 space-y-1">
+            <p className="text-sm md:text-base text-white/60">{t('professional.kruzer_intern_period')}</p>
+            <ul className="mt-2 text-sm md:text-base text-white/70 space-y-1">
               <li>• {t('professional.kruzer_intern_li1')}</li>
               <li>• {t('professional.kruzer_intern_li2')} <span className="text-white">{t('professional.kruzer_intern_li2_tech')}</span></li>
             </ul>
@@ -42,11 +42,11 @@ export const ProfessionalExperience = () => {
 
           {/* JA VENDEU */}
           <div>
-            <h2 className="font-semibold text-white text-lg md:text-xl">
+            <h2 className="font-semibold text-white text-base md:text-lg">
               {t('professional.javendeu_role')}
             </h2>
-            <p className="text-base md:text-lg text-white/60">{t('professional.javendeu_period')}</p>
-            <ul className="mt-2 text-base md:text-lg text-white/70 space-y-1">
+            <p className="text-sm md:text-base text-white/60">{t('professional.javendeu_period')}</p>
+            <ul className="mt-2 text-sm md:text-base text-white/70 space-y-1">
               <li>• {t('professional.javendeu_li1')}</li>
               <li>• {t('professional.javendeu_li2')} <span className="text-white">{t('professional.javendeu_li2_skills')}</span></li>
             </ul>

@@ -9,7 +9,7 @@ export const About = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="w-full flex flex-col items-center gap-12 md:gap-16 py-8 md:py-12 px-4 md:px-6">
+    <div className="w-full max-w-4xl mx-auto flex flex-col gap-12 md:gap-16 py-8 md:py-12 px-4 md:px-6">
       <AboutSection
         image={mePhoto}
         imageAlt="Minha foto"
@@ -17,7 +17,7 @@ export const About = () => {
         paragraphs={[t('about.dev_p1'), t('about.dev_p2')]}
       />
 
-      <div className="w-full max-w-4xl h-px bg-white/10" />
+      <div className="w-full h-px bg-white/10" />
 
       <AboutSection
         image={jaVendeuPhoto}
@@ -27,7 +27,7 @@ export const About = () => {
         imageRight
       />
 
-      <div className="w-full max-w-4xl h-px bg-white/10" />
+      <div className="w-full h-px bg-white/10" />
 
       <AboutSection
         image={portugalPhoto}
@@ -36,7 +36,7 @@ export const About = () => {
         paragraphs={[t('about.portugal_p1'), t('about.portugal_p2')]}
       />
 
-      <div className="w-full max-w-4xl h-px bg-white/10" />
+      <div className="w-full h-px bg-white/10" />
 
       <AboutSection
         image={futPhoto}

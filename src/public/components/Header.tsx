@@ -15,18 +15,24 @@ export const TabsHeader = () => {
   ]
 
   return (
-    <div className="w-[calc(100%-20px)] text-white mx-[10px] mt-[10px] rounded-[5px] flex items-center px-2 relative">
-      {/* Desktop nav */}
-      <TabsList className="hidden md:flex gap-1 bg-transparent w-full pl-[calc(100%-60%)]">
-        {TAB_ITEMS.map(tab => (
-          <TabsTrigger
-            key={tab.value}
-            value={tab.value}
-            className="px-3 py-1 text-sm rounded-[4px] text-white/60 hover:text-white transition-colors cursor-pointer data-[state=active]:bg-white/15 data-[state=active]:text-white">
-            {tab.label}
-          </TabsTrigger>
-        ))}
-      </TabsList>
+    <div className="w-[90%] md:w-full md:max-w-4xl text-white mx-auto mt-[10px] rounded-[5px] flex items-center px-4 py-2 relative shadow-[0_4px_12px_rgba(0,0,0,0.3)]">
+
+      {/* Desktop nav — tabs centrados, toggle em absoluto para não deslocar */}
+      <div className="hidden md:flex w-full items-center relative">
+        <TabsList className="flex gap-1 bg-transparent w-full justify-center">
+          {TAB_ITEMS.map(tab => (
+            <TabsTrigger
+              key={tab.value}
+              value={tab.value}
+              className="px-3 py-1 text-sm rounded-[4px] text-white/60 hover:text-white transition-colors cursor-pointer data-[state=active]:bg-white/15 data-[state=active]:text-white">
+              {tab.label}
+            </TabsTrigger>
+          ))}
+        </TabsList>
+        <div className="absolute right-0">
+          <LanguageToggle />
+        </div>
+      </div>
 
       {/* Mobile: hamburger + language toggle */}
       <div className="flex md:hidden items-center justify-between w-full py-1">
@@ -38,11 +44,6 @@ export const TabsHeader = () => {
           <span className={`block w-5 h-[2px] bg-white transition-all ${menuOpen ? 'opacity-0' : ''}`} />
           <span className={`block w-5 h-[2px] bg-white transition-all ${menuOpen ? '-rotate-45 -translate-y-[7px]' : ''}`} />
         </button>
-        <LanguageToggle />
-      </div>
-
-      {/* Desktop language toggle */}
-      <div className="hidden md:block ml-auto flex-shrink-0">
         <LanguageToggle />
       </div>
 

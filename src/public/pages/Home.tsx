@@ -11,19 +11,19 @@ export const Home = () => {
       {/* Left — text content */}
       <div className="flex flex-col gap-4 text-white text-center md:text-left items-center md:items-start">
         <div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Mateus de Mattos
             <br />
             Martins
           </h1>
-          <h2 className="text-white/60 text-xl md:text-2xl mt-2">
+          <h2 className="text-white/60 text-lg md:text-xl mt-2">
             {t('home.role')}
           </h2>
         </div>
 
         <div className="w-12 h-px bg-white/30" />
 
-        <p className="text-white/70 text-base md:text-lg max-w-xs leading-relaxed">
+        <p className="text-white/70 text-sm md:text-base max-w-xs leading-relaxed">
           {t('home.description')}
         </p>
 
